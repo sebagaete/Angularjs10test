@@ -1,0 +1,19 @@
+<section>
+    <div class="profile-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md" *ngFor = "let usuarios of listUsuarios">
+                    <div class = "card" >
+                        <div class="img1"><img src = "/assets/img/p1.jpg" alt=""></div>
+                        <div class="img2"><img src = "/assets/img/j1.jpg" alt=""></div>
+                        <div class ="main-text">
+                            <h3>{{ usuarios.Nombre }}</h3>
+                            <h2>{{ usuarios.Edad}}</h2>
+                            <h6> <ion-icon id="icon" name="earth-outline"></ion-icon>{{usuarios.Pais}}, {{usuarios.Ciudad}} </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
