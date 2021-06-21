@@ -1,0 +1,19 @@
+<body>
+    <div class="profile-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class = "card" *ngFor = "let usuarios of listUsuarios">
+                        <div class="img1"><img src = "/assets/img/p1.jpg" alt=""></div>
+                        <div class="img2"><img src = "/assets/img/j1.jpg" alt=""></div>
+                        <div class ="main-text">
+                            <h2> {{ usuarios.Nombre }}</h2>
+                            <h3>{{ usuarios.Edad}}</h3>
+                            <h6>{{ usuarios.Pais}} , {{usuarios.Ciudad}} </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
