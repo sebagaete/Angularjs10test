@@ -19,8 +19,8 @@ describe('ViewComponent', () => {
     fixture.detectChanges();
   });
 
-  it('test funct obtenerProductos', () => {
+  /*it('test funct obtenerProductos', () => {
    
     expect(component.obtenerProductos());
-  });
+  });*/
 });
