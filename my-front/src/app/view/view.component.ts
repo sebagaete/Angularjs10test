@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Usuarios } from '../models/usuarios';
 import { UsuarioService } from '../services/usuario.servicio';
+import { IonicModule } from '@ionic/angular';
 
 
 @Component({

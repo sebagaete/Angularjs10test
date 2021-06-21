@@ -3,12 +3,16 @@ body{
     background: #fff;
 }
 .profile-area{
-    padding:80px 0;
+    padding: 80px;
 }
+
 .card{
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
     overflow: hidden;
     border-radius: 15px;
+}
+#icon{
+    margin-right: 5px;
 }
 .img1 img{
     height: 200px;
@@ -37,4 +41,10 @@ body{
 .main-text{
     padding: 30px 0;
     text-align: center;
+}
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
 }
