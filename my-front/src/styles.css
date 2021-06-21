@@ -3,7 +3,7 @@ body{
     background: #fff;
 }
 .profile-area{
-    padding: 80px;
+    padding: 40px;
 }
 
 .card{
@@ -47,4 +47,11 @@ body{
     font-weight: 900;
     font-size: 20px;
     margin: 0 0 20px;
+}
+#title{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
+    text-align: right;
 }
